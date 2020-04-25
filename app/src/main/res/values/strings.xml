@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CameraCvInfo</string>
+    <string name="PermissionHead">Permission Error</string>
+    <string name="PermissionBody">You have permenentaly denies permissions go to setting to enable it.</string>
+    <string name="LogOutHead">Confirm Logout</string>
+    <string name="LogOutBody">confirm if you want to logout</string>
+    <string name="submit">Submit</string>
+    <string name="ReasonTitle">write a proper reason</string>
+    <string name="MoNoEditTitle">Input Mob No</string>
+    <string name="InputOtp">Input OTP</string>
+    <string name="EmailNoEditTitle">Input Email</string>
+</resources>
