@@ -86,9 +86,12 @@ class MainActivity : BaseFragment() {
                     pathlist.add(entity.imagePath)
                     val file = File(entity.imagePath)
                     val lastModifiedDate = Date(file.lastModified())
+                      var  sdf =  SimpleDateFormat("dd/MM/yyyy");
+       var currentDateandTime = sdf.format( Date());
+
                     var dateFormat =  SimpleDateFormat("dd/MM/yyyy")
                     Log.v("pppp","Last Modified Date : " + dateFormat.format(lastModifiedDate))
-                    datelist.add( dateFormat.format(lastModifiedDate).toString())
+                    datelist.add( currentDateandTime)
                     data.add(lastModifiedDate.date)
 
                 }
