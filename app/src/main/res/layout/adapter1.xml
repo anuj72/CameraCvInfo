@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-   android:maxHeight="350dp"
+
+    android:id="@+id/cv"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
@@ -11,6 +12,7 @@
         android:id="@+id/rvc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
         android:background="@color/colourGrey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,12 +44,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
-        android:text="TextView"
         android:elevation="10dp"
+        android:text="TextView"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/rvc" />
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView4"
